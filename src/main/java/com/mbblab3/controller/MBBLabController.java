@@ -19,7 +19,7 @@ public class MBBLabController {
 	@GetMapping("displayAllEmployee")
 	public List<Employee> getAll(){
 		
-		System.out.println("bycv xcvegg");
+		System.out.println("hi");
 		
 		List<Employee> list =mService.findAllEmployee();
 			
